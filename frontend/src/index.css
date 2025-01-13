@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  background: hsla(277, 30%, 21%, 1);
+
+background: linear-gradient(0deg, hsla(277, 30%, 21%, 1) 0%, hsla(233, 62%, 30%, 1) 100%);
+
+background: -moz-linear-gradient(0deg, hsla(277, 30%, 21%, 1) 0%, hsla(233, 62%, 30%, 1) 100%);
+
+background: -webkit-linear-gradient(0deg, hsla(277, 30%, 21%, 1) 0%, hsla(233, 62%, 30%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#382544", endColorstr="#1D287B", GradientType=1 );
+@apply text-white 
+}
